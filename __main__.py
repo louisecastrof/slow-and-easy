@@ -1,6 +1,7 @@
+import os
 # ####################### Basic and sequential Data Types #######################
 # ## int 
-
+os.remove
 
 
 # number = "dsahdhkasl"
@@ -149,3 +150,7 @@ else:
   pass
 
 temperature = 30
+
+with open("Desktop/slow-and-easy/files/recipe.txt", "w") as recipe:
+    recipe.write 
+    

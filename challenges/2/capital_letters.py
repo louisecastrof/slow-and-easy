@@ -16,3 +16,14 @@ def capital_letters(string: str)-> list:
     else:
       pass
   return capital_letters_list
+
+
+def capital_indexes(string: str):
+  acc = []
+  for index,letter in enumerate(string):
+    if letter.isupper():
+      acc.append(index)
+    else:
+      next
+  print(acc)
+capital_indexes(super_string)

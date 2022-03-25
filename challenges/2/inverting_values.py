@@ -6,7 +6,11 @@ print(a, b) # 1, 2
 
 ### Your code ###
 
-
+a = b
+b = a
+c = 1
+b = c
+a,b = b,a
 
 
 

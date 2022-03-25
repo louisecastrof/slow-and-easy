@@ -4,11 +4,28 @@
 
 # For example, mid("abc") should return "b" and mid("aaaa") should return "".
 
-def mid(string):
-    string_len = len(string)
-    have_middle_letter = string_len % 2
-    if have_middle_letter != 0:
-        middle = round(string_len / 2) - 1
-        return string[middle]
+def mid():
+    string = "hahah"
+    tamanho = len(string)
+    if tamanho % 2 == 0:
+        return ""
     else:
-        return ''
+        posicao = round(tamanho / 2) - 1
+        return string[posicao]
+nada = mid()
+print(nada)
+mid()
+
+
+
+
+
+
+# # def mid(string):
+#     string_len = len(string)
+#     have_middle_letter = string_len % 2
+#     if have_middle_letter != 0:
+#         middle = round(string_len / 2) - 1
+#         return string[middle]
+#     else:
+#         return ''
